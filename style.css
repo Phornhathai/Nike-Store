@@ -1,0 +1,28 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #111;
+    color: #fff;
+    padding: 20px 50px;
+
+}
+
+.navTop{
+    display: flex;
+    /* จัด item ให้อยู่ตรงกลาง */
+    align-items: center; 
+    /* space-between: จัด Flex Item ให้อยู่ระหว่างกัน */
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    /* center: จัด Flex Item ให้อยู่ตรงกลางใน Flex Container */
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+}
