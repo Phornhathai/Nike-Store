@@ -93,7 +93,7 @@ nav{
     position: absolute;
 }
 
-.sliderImg{
+.sliderlmg{
     /* แสดงพื้นที่ทับซ้อนให้เห็นกรณีที่มีค่า z-index มากกว่า จะแสดง element นั้น */
     z-index: 1;
 }
@@ -135,6 +135,7 @@ nav{
 }
 
 .buyButton:hover{
+    /* เมื่อวาง mouse ไว้บนปุ่มจะเปลี่ยนสีพื้นหลังเป็นสีขาว */
     background-color: white;
     color: black;
 }
