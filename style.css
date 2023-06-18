@@ -24,5 +24,42 @@ nav{
     /* center: จัด Flex Item ให้อยู่ตรงกลางใน Flex Container */
     align-items: center;
     background-color: gray;
-    padding: 10px;
+    /* ตั้งค่าขอบจากขอบสูง 10px และจากขอบกว้าง 20px */
+    padding: 10px 20px;
+    /* ตั้งค่าขอบให้มน ไม่เป็นเหลี่ยม */
+    border-radius: 10px;
 }
+
+.searchInput{
+    border: none; 
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.limitedOffer{
+    font-size: 20px;
+    /* เส้นใต้สีเขียว หนา 2px */
+    border-bottom: 2px solid green;
+    /* เพิ่ม mouse ชี้ที่ตัวอักษร limitedOffer */
+    cursor: pointer;
+}
+
+.navBottom{
+    /* Short cut : df = display : flex */
+    display: flex;
+    align-items: center;
+    /* space-between: จัด Flex Item ให้อยู่ระหว่างกัน */
+    justify-content: center;
+}
+
+.menuItem{
+    
+}
+
+
+
+
+
